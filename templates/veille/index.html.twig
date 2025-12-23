@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}PortFolio | Veille Technologique{% endblock %}
+
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1 class="mt-3">Le Cloud Computing</h1>
+        <p class="mt-4">
+            Le Cloud Computing, une technologie clé qui révolutionne la gestion des données
+        </p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center g-4">
+            <!-- 1. Découverte -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Découverte</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Comprendre comment le Cloud transforme l'accès aux ressources <br> et aux services numériques
+                        </p>
+                        <a href=" {{path('découverte')}} "> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Caractéristiques -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Caractéristiques</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Identifiez les caractéristiques clés qui définissent et structurent les services Cloud modernes
+                        </p>
+                        <a href=" {{path('caractéristiques')}} "> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Organisation -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Organisation</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Analyser l'organisation des services Cloud pour assurer flexibilité, performance et disponibilité
+                        </p>
+                        <a href=" {{path('organisation')}} "> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center g-4">
+            <!-- 4. Avantages -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Avantages</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Mettre en avant les principaux avantages du Cloud et les bénéfices qu'il apporte aux
+                            organisations
+                        </p>
+                        <a href=" {{path('avantages')}} "> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. De nos jours -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">De nos jours</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Observez comment le Cloud s'impose aujourd'hui comme un pilier essentiel des infrastructures
+                            numériques
+                        </p>
+                        <a href=" {{path('de-nos-jours')}} "> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Pearltrees -->
+            <div class="col-12 col-md-4">
+                <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Pearltrees</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            Présenter l'organisation de la veille sur Pearltrees pour centraliser et suivre les sources du
+                            Cloud
+                        </p>
+                        <a href=""> <h4 class="card-title">En savoir plus</h4> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

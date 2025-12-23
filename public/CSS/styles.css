@@ -1,0 +1,126 @@
+/* Gestion de l'apparence du PortFolio */
+
+/* I. Barre de navigation */
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+/* II. Titres et paragraphes */
+
+h2
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h3
+{
+    margin-left: 20px;
+}
+
+p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* III. Blocs de texte */
+
+.cloud-container
+{
+    gap: 50px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.cloud-text
+{
+    max-width: 560px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.cloud-text, .cloud-video
+{
+    width: 560px;
+}
+
+/* IV. Images */
+
+img
+{
+    border-radius: 15px;
+}
+
+.img-fluid
+{
+    height: auto;
+    max-width: 150px;
+}
+
+/* V. Liens */
+
+.content a
+{
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.content a:hover
+{
+    color: #0000bb;
+}
+
+.content a:visited
+{
+    color: #000088;
+}
+
+/* VI. Cards */
+
+.card-header
+{
+    text-align: center;
+}
+
+.card a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.card a:hover
+{
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+/* VII. Tableaux */
+
+.table td, .table th
+{
+    padding: 0.4rem;
+}
+
+td
+{
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* VIII. Autres */
+
+.row
+{
+    text-align: center;
+}
+
+.definition
+{
+    margin-left: 30px;
+}
+
+/* FIN */

@@ -1,0 +1,43 @@
+# 1. Accueil
+accueil:
+  path: /
+  controller: App\Controller\AccueilController::index
+
+# 2. Profil
+profil:
+  path: /profil
+  controller: App\Controller\ProfilController::index
+
+# 5. Veille Technologique
+veille:
+  path: /veille
+  controller: App\Controller\VeilleController::index
+
+# a. Découverte
+découverte:
+  path: /découverte
+  controller: App\Controller\VeilleTechnologique\DécouverteController::index
+
+# b. Caractéristiques
+caractéristiques:
+  path: /caractéristiques
+  controller: App\Controller\VeilleTechnologique\CaractéristiquesController::index
+
+# c. Organisation
+organisation:
+  path: /organisation
+  controller: App\Controller\VeilleTechnologique\OrganisationController::index
+
+# d. Avantages
+avantages:
+  path: /avantages
+  controller: App\Controller\VeilleTechnologique\AvantagesController::index
+
+# e. De nos jours
+de-nos-jours:
+  path: /de-nos-jours
+  controller: App\Controller\VeilleTechnologique\DeNosJoursController::index
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index

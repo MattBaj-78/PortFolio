@@ -5,5 +5,85 @@
 {% block body %}
     <div class="jumbotron text-center">
         <h1 class="mt-3">Organisation</h1>
+        <p class="mt-4">
+            Analyser l'organisation des services Cloud pour assurer flexibilité, performance et disponibilité
+        </p>
+    </div>
+
+    <div class="definition mt-5">
+        <h2>I. Présentation</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row align-items-center gx-5">
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe height = "300" width = "550" src="https://www.youtube.com/embed/RwbIMBSr8o8?si=IYiSQRfI_RGET6JV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <div class="cloud-text">
+                    <p class="text-center">
+                        En <strong>France</strong>, <strong>Arnaud Montebourg</strong> a lancé 34 plans de <strong>reconquête industrielle</strong>, et l'un de ces plans
+                        concerne justement le Cloud Computing. Ce plan repose notamment sur dix <strong>mesures</strong> précises qui vont ainsi permettre de <strong>développer</strong>
+                        le Cloud Computing en France.
+
+                        {# L'ensemble des mesures devrait être déployé cette année. #}
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-3 mt-3">
+                        <img class="img-fluid" src=" {{asset('Découverte/Ordinateur.png')}} " alt="Ordinateur">
+                        <img class="img-fluid" src=" {{asset('Découverte/Nuage.png')}} " alt="Nuage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="definition mt-5">
+        <h2>II. Arnaud Montebourg</h2>
+    </div>
+
+    <div class="container mt-5">
+        
+    </div>
+
+    <div class="definition mt-5">
+        <h2>III. Ressources</h2>
+    </div>
+
+    <div class="container mt-5">
+        <table class="table table-hover table-sm text-center align-middle" style="table-layout: fixed;">
+            <colgroup>
+                <col style="width: 15%">
+                <col style="width: 60%">
+                <col style="width: 25%">
+            </colgroup>
+
+            <thead>
+                <tr class="table-active">
+                    <th scope="col">Documents</th>
+                    <th scope="col">Lien</th>
+                    <th scope="col">Date de publication</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <div class="content">
+                            <a href="http://www.generation-nt.com/plan-cloud-computing-arnaud-monterbourg-10-mesures-actualite-1891532.html">
+                                Cloud Computing : Arnaud Monterbourg présente ses 10 mesures
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        09 juin 2014
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 {% endblock %}

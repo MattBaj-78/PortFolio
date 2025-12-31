@@ -3,7 +3,77 @@
 {% block title %}PortFolio | Veille Technologique | Avantages{% endblock %}
 
 {% block body %}
-<div class="jumbotron text-center">
-    <h1 class="mt-3">Avantages</h1>
-</div>
+    <div class="jumbotron text-center">
+        <h1 class="mt-3">Avantages</h1>
+        <p class="mt-4">
+            Mettre en avant les principaux avantages du Cloud et les bénéfices qu'il apporte aux organisations
+        </p>
+    </div>
+
+    <div class="definition mt-5">
+        <h2>I. Le Cloud Computing, ses grands avantages</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row align-items-center gx-5">
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <div class="cloud-text">
+                    <p class="text-center">
+                        En <strong>deux</strong> ans, le marché <strong>français</strong> du Cloud Computing est passé de 2,2 <strong>milliards</strong>
+                        d'euros en 2012 à 4,1 millards d'euros en 2014. Une <strong>hausse</strong> qui pourrait bien <strong>ralentir</strong> en 2016,
+                        mais celle-ci reste à <strong>deux</strong> chiffres, selon une <strong>étude</strong> menée par le cabinet <strong>Markess</strong>.
+                    </p>
+
+                    <div class="d-flex justify-content-center mt-3">
+                        <img class="img-fluid rounded" src=" {{asset('Découverte/Personnes.png')}} " alt="Personnes">
+                        <img class="img-fluid rounded" src=" {{asset('Découverte/Schéma.png')}} " alt="Schéma">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="definition mt-5">
+        <h2>II. Ressources</h2>
+    </div>
+
+    <div class="container mt-5">
+        <table class="table table-hover table-sm text-center align-middle" style="table-layout: fixed;">
+            <colgroup>
+                <col style="width: 15%">
+                <col style="width: 60%">
+                <col style="width: 25%">
+            </colgroup>
+
+            <thead>
+                <tr class="table-active">
+                    <th scope="col">Documents</th>
+                    <th scope="col">Lien</th>
+                    <th scope="col">Date de publication</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <div class="content">
+                            <a href="http://www.larevuedudigital.com/2014/05/dsi/france-le-cloud-computing-un-marche-de-4-millards-deuros-en-2014/">
+                                France : le Cloud Computing, un marché de 4 milliards d'euros en 2014
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        11 juillet 2014
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 {% endblock %}
